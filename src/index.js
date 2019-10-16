@@ -1,19 +1,18 @@
 import angular from 'angular';
-import 'bootstrap/dist/cgit ss/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import nome from '.clientes';
 // import './base.scss';
 
 export const app = 'app'
 
 angular.module(app, [
     'ngRoute',
-
-    // 'ngResource',
-    // ClienteModule,
+    nome
   ])
 
   .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
   
-    $routeProvider.otherwise({redirectTo: '/view1'});
+    $routeProvider.otherwise({redirectTo: '/clientes'});
   }]);
   
