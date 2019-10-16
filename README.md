@@ -14,3 +14,13 @@ gerando o build:
 ```
 npx webpack -mode none
 ```
+
+
+## gerando build prodution e test
+```
+$ npm run build:test
+```
+
+```
+$ npm run build:production
+```

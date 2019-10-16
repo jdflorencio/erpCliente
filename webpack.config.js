@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const devMode = process.env.NODE_ENV === 'development';
 const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin');
+
 let config = {
     entry: './src/index.js',
     output: {
@@ -14,7 +15,7 @@ let config = {
       // new CleanWebpackPlugin(['./public']),
       new HtmlWebpackPlugin({
         template: './src/index.html',
-        minify: false
+        minify: true
       }),
       new MiniCssExtractPlugin({
         filename: 'styles.css'
