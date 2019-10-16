@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const app = 'app';
+var app = 'app';
 angular__WEBPACK_IMPORTED_MODULE_0___default.a.module(app, ['ngRoute' // 'ngResource',
 // ClienteModule,
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
