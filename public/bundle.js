@@ -90,14 +90,14 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "app", function() { return app; });
 /* harmony import */ var angular__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var angular__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(angular__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
 
+ // import './base.scss';
+// export const app = 'app'
 
-var app = 'app';
 angular__WEBPACK_IMPORTED_MODULE_0___default.a.module(app, ['ngRoute' // 'ngResource',
 // ClienteModule,
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
@@ -36557,9 +36557,9 @@ $provide.value("$locale", {
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, scandir '/home/diego/learning/javascript/client_erp/node_modules/node-sass/vendor'\n    at Object.readdirSync (fs.js:790:3)\n    at Object.getInstalledBinaries (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/extensions.js:131:13)\n    at foundBinariesList (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/errors.js:20:15)\n    at foundBinaries (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/errors.js:15:5)\n    at Object.module.exports.missingBinary (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/errors.js:45:5)\n    at module.exports (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/binding.js:15:30)\n    at Object.<anonymous> (/home/diego/learning/javascript/client_erp/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (/home/diego/learning/javascript/client_erp/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (/home/diego/learning/javascript/client_erp/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)\n    at getDefaultSassImplementation (/home/diego/learning/javascript/client_erp/node_modules/sass-loader/dist/getDefaultSassImplementation.js:24:10)\n    at getSassImplementation (/home/diego/learning/javascript/client_erp/node_modules/sass-loader/dist/getSassImplementation.js:19:72)\n    at Object.loader (/home/diego/learning/javascript/client_erp/node_modules/sass-loader/dist/index.js:40:61)\n    at runLoaders (/home/diego/learning/javascript/client_erp/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /home/diego/learning/javascript/client_erp/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/diego/learning/javascript/client_erp/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at runSyncOrAsync (/home/diego/learning/javascript/client_erp/node_modules/loader-runner/lib/LoaderRunner.js:143:3)\n    at iterateNormalLoaders (/home/diego/learning/javascript/client_erp/node_modules/loader-runner/lib/LoaderRunner.js:232:2)\n    at Array.<anonymous> (/home/diego/learning/javascript/client_erp/node_modules/loader-runner/lib/LoaderRunner.js:205:4)\n    at Storage.finished (/home/diego/learning/javascript/client_erp/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)\n    at provider (/home/diego/learning/javascript/client_erp/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9)\n    at /home/diego/learning/javascript/client_erp/node_modules/graceful-fs/graceful-fs.js:115:16\n    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)");
+// extracted by mini-css-extract-plugin
 
 /***/ })
 /******/ ]);

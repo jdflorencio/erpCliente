@@ -1,7 +1,8 @@
 import angular from 'angular';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import './base.scss';
 
-export const app = 'app'
+// export const app = 'app'
 
 angular.module(app, [
     'ngRoute',
