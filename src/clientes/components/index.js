@@ -1,0 +1,1 @@
+export { PrincipalComponent } from './PrincipalComponent/Principal'
